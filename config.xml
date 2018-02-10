@@ -11,6 +11,6 @@
     <access origin="https://kellu-chatweb.mybluemix.net/" />
     <engine name="android" spec="~7.0.0" />
     <icon src="www/kelluicon.ico" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <plugin name="cordova-plugin-whitelist" />
+    <!--<gap:plugin name="org.apache.cordova.inappbrowser" />
+    <plugin name="cordova-plugin-whitelist" /> -->
 </widget>
