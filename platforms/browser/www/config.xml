@@ -10,5 +10,4 @@
     <content src="index.html" />
     <access origin="https://kellu-chatweb.mybluemix.net/" />
     <icon src="www/kelluicon.ico" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
 </widget>
