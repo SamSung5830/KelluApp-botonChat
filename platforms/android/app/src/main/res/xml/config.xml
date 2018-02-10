@@ -4,14 +4,16 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>PrimeraApp</name>
+    <name>KelluAppChat</name>
     <description>
-        A blank PhoneGap app.
+        Aplicación KelluAppChat
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
     <access origin="https://kellu-chatweb.mybluemix.net/" />
+    <icon src="www/kelluicon.ico" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

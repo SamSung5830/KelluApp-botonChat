@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>KelluAppChat</name>
     <description>
-        A blank PhoneGap app.
+        Aplicación KelluAppChat
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
@@ -10,9 +10,7 @@
     <content src="index.html" />
     <access origin="https://kellu-chatweb.mybluemix.net/" />
     <engine name="android" spec="~7.0.0" />
-
-
-
-    <!--ejecutar en un Iframe-->
+    <icon src="www/kelluicon.ico" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <plugin name="cordova-plugin-whitelist" />
 </widget>

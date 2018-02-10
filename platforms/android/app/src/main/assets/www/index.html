@@ -10,15 +10,18 @@
 
     <body bgcolor="#2a1d15" style="font-family:verdana;">
     <script>
-        var ventanaChat;
         function abrechat(){
-              var ventanaChat = window.open('https://kellu-chatweb.mybluemix.net/', '_self', 'transitionstyle=fliphorizontal', 'location=yes');
+        var ventanaChat = window.open('https://kellu-chatweb.mybluemix.net/', '_self', 'transitionstyle=fliphorizontal', 'location=yes');
+        }
+        function salir(){
+        navigator.app.exitApp();
         }
     </script>
         <center>
+        <br><img src="sura.gif" alt="logo_sura" width="100" height="100">
         <font color="orange">
         </br>
-          <h1>Sistema <font color="white">Kellu</font> </h1>
+          <h1>Sistema K<font color="white">ellu</font> </h1>
           <p>
               <b style="font-size:90%;"><h2>Asistente de Mesa de Ayuda IT</h2></b></br>
               <!--<img src="imagen.jpg" alt="url.com" width="104" height="142">-->
@@ -27,7 +30,8 @@
                     Por favor pulsa el botón para<br>
                     acceder al sistema de atención
           </p>
-                <br><button onclick="abrechat()">Asistente Kellu</button></br></br>
+                <br><button onclick="abrechat()">Acceder</button></br></br>
+                <br><button onclick="salir()">Salir</button></br></br>
         </font>
         </center>
         <script type="text/javascript" src="cordova.js"></script>
